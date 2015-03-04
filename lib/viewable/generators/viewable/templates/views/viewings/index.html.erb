@@ -1,0 +1,22 @@
+<h3> Viewings for <%%= @<%=viewable_views_name.singularize%>.name %></h3>
+<table class="viewings_table">
+  <tr>
+    <th>Start</th>
+    <th>End</th>
+  </tr>
+
+  <%% @viewings.each do |viewing| %>
+  <tr>
+    <td>
+      <%%= viewing.start_time.strftime('%e %b %Y %H:%M%p') %>
+    </td>
+    <td>
+      <%%= (viewing.calculate_end_time + 60).strftime('%e %b %Y %H:%M%p') %>
+    </td>
+    <td><%%= link_to "Delete", <%=viewable_views_name.singularize%>_viewing_path(@<%=viewable_views_name.singularize%>, viewing), data: { confirm: 'Are you sure?' }, method: :delete %>
+    </td>
+    <td><%%= link_to "Edit", edit_<%=viewable_views_name.singularize%>_viewing_path(@<%=viewable_views_name.singularize%>, viewing) %>
+    </td>
+  </tr>
+  <%% end %>
+</table>

@@ -1,0 +1,13 @@
+  <%% if @<%=viewable_views_name.singularize%>.errors.any? %>
+  <div class="errors">
+    <h3>
+      <%%= pluralize(@<%=viewable_views_name.singularize%>.errors.count, 'error') %>
+      prohibited this <%=viewable_views_name.singularize%> from being saved:
+    </h3>
+    <ul>
+      <%% @<%=viewable_views_name.singularize%>.errors.full_messages.each do |message| %>
+        <li><%%= message %></li>
+      <%% end %>
+    </ul>
+  </div>
+<%% end %>
