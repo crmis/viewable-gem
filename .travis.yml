@@ -1,0 +1,22 @@
+os:
+  - linux
+language: ruby
+
+rvm:
+  - 2.2.0
+  - 2.0.0
+before_install:
+  - sudo apt-get update
+  - gem update --system
+  - gem update
+  - gem --version
+
+before_script:
+  - bundle exec rake
+
+notifications:
+  on_success: change
+  on_failure: change
+  email:
+    recipients:
+      - tom.jcox@icloud.com
