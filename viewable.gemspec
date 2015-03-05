@@ -6,7 +6,7 @@ require 'viewable/version'
 Gem::Specification.new do |s|
 	# metadata
 	s.name        = 'viewable'
-	s.version     = Viewable::VERSION
+	s.version     = '0.5.7'
 	s.licenses    = ['MIT']
 	s.summary     = %q{a viewings calendar gem for rails 4.0}
 	s.description = %q{Viewable is a Rails 4.0 gem that enables you to add resource viewing functionality to your Rails application. A resource can be anything that is viewable e.g. function room, conference hall. }
