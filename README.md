@@ -10,7 +10,7 @@
 
 Viewable works with Rails 4.0. Add this line to your Gemfile:
 
-    gem 'bookable', '~> 0.0.52'
+    gem 'viewable', '~> 0.5.7'
 
 Then execute:
 
