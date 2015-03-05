@@ -15,6 +15,8 @@ Gem::Specification.new do |s|
 	s.homepage    = 'https://github.com/crmis/viewable-gem'
 
 	# file settings
+	# This gem will work with 1.9.5 or greater...
+	s.required_ruby_version = '>= 1.9.5'
 	s.files         = `git ls-files`.split($/)
 	s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
 	s.test_files    = s.files.grep(%r{^(test|spec|features)/})
