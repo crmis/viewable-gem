@@ -3,10 +3,10 @@
 <%% @<%=viewable_views_name.pluralize%>.each do |<%=viewable_views_name.singularize%>| %>
   <div class="<%=viewable_views_name.singularize%>">
     <%%= <%=viewable_views_name.singularize%>.name %>
-    <%%= link_to "Show all viewing", <%=viewable_views_name.singularize%>_viewings_path(<%=viewable_views_name.singularize%>) %>
+    <%%= link_to "Show all viewings", <%=viewable_views_name.singularize%>_viewings_path(<%=viewable_views_name.singularize%>) %>
     <%%= link_to "Delete", <%=viewable_views_name.singularize%>_path(<%=viewable_views_name.singularize%>), data: { confirm: 'Are you sure?' }, method: :delete %>
     <%%= link_to "Edit", edit_<%=viewable_views_name.singularize%>_path(<%=viewable_views_name.singularize%>) %>
     <%%= link_to "Add viewing", new_<%=viewable_views_name.singularize%>_viewing_path(<%=viewable_views_name.singularize%>) %>
+    <%%= link_to "New", new_<%=viewable_views_name.singularize%>_path(@<%=viewable_views_name.singularize%>) %>
   </div>
 <%% end %>
-<%%= link_to "New", new_<%=viewable_views_name.singularize%>_path(<%=viewable_views_name.singularize%>) %>
