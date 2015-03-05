@@ -1,4 +1,4 @@
-module viewable
+module Viewable
 	module Generators
 		class JsGenerator < Rails::Generators::Base
 			source_root File.expand_path('../templates/assets/javascript', __FILE__)
