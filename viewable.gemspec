@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
 	s.description = %q{Viewable is a Rails 4.0 gem that enables you to add resource viewing functionality to your Rails application. A resource can be anything that is viewable e.g. function room, conference hall. }
 	s.authors     = ["Tom Cox", "crmis"]
 	s.email       = 'tom.jcox@icloud.com'
-	s.homepage    = 'https://github.com/crmis/viewable'
+	s.homepage    = 'https://github.com/crmis/viewable-gem'
 
 	# file settings
 	s.files         = `git ls-files`.split($/)

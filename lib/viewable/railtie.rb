@@ -5,3 +5,4 @@ module Viewable
 			require "generators/viewable/install_generator"
 		end
 	end
+end
