@@ -25,6 +25,6 @@ Gem::Specification.new do |s|
 	s.add_development_dependency 'rake', '~> 10.4'
 
 	# runtime dependencies
-	s.add_dependency 'jbuilder', '~> 1.5'
+	s.add_dependency 'jbuilder', '~> 2.0'
 	s.add_dependency 'rails_12factor', '~> 0.0.3'
 end
