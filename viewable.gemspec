@@ -21,10 +21,10 @@ Gem::Specification.new do |s|
 	s.require_paths = ["lib","lib/viewable","lib/viewable/generators", "lib/viewable/generators/viewable"]
 
 	# development dependencies
-	s.add_development_dependency 'bundler', '~> 1.8.2'
-	s.add_development_dependency 'rake', '~> 10.4.2'
+	s.add_development_dependency 'bundler', '~> 1.8'
+	s.add_development_dependency 'rake', '~> 10.4'
 
 	# runtime dependencies
-	s.add_dependency 'jbuilder', '~> 1.5.3'
+	s.add_dependency 'jbuilder', '~> 1.5'
 	s.add_dependency 'rails_12factor', '~> 0.0.3'
 end
