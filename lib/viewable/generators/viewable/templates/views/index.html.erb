@@ -6,7 +6,7 @@
     <%%= link_to "Show all viewing", <%=viewable_views_name.singularize%>_viewings_path(<%=viewable_views_name.singularize%>) %>
     <%%= link_to "Delete", <%=viewable_views_name.singularize%>_path(<%=viewable_views_name.singularize%>), data: { confirm: 'Are you sure?' }, method: :delete %>
     <%%= link_to "Edit", edit_<%=viewable_views_name.singularize%>_path(<%=viewable_views_name.singularize%>) %>
-    <%%= link_to "Add viewing", new_<%=viewable_views_name.singularize%>_viewings_path(<%=viewable_views_name.singularize%>) %>
+    <%%= link_to "Add viewing", new_<%=viewable_views_name.singularize%>_viewing_path(<%=viewable_views_name.singularize%>) %>
   </div>
 <%% end %>
 <%%= link_to "New", new_<%=viewable_views_name.singularize%>_path(<%=viewable_views_name.singularize%>) %>
