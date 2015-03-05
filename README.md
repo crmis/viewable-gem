@@ -2,7 +2,7 @@
 
 :octocat:
 
-[![Gem Version](https://badge.fury.io/rb/viewable@2x.png)](http://badge.fury.io/rb/viewable)
+[![Gem Version](https://badge.fury.io/rb/viewable.png)](http://badge.fury.io/rb/viewable)
 [![Build Status](https://travis-ci.org/crmis/viewable.svg?branch=master)](https://travis-ci.org/crmis/viewable)
 [![Code Climate](https://codeclimate.com/github/crmis/viewable-gem/badges/gpa.svg)](https://codeclimate.com/github/crmis/viewable-gem)
 [![Dependency Status](https://gemnasium.com/crmis/viewable-gem.svg)](https://gemnasium.com/crmis/viewable-gem)
