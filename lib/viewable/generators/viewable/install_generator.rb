@@ -5,7 +5,7 @@ module Viewable
 			source_root File.expand_path("../", __FILE__)
 			def install
 				generate "viewable:resource_model #{resource_name}"
-				generate "viewable:booking_model #{resource_name}"
+				generate "viewable:viewing_model #{resource_name}"
 				generate "viewable:controller #{resource_name}"
 				generate "viewable:views #{resource_name}"
 				generate "viewable:js #{resource_name}"

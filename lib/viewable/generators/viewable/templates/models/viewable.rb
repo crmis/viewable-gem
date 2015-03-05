@@ -27,11 +27,11 @@ module Viewable
 
   def overlaps
     overlapping_viewings = [
-      <%=resource_name_underscore.singularize%>.bookings.end_during(start_time, end_time),
-      <%=resource_name_underscore.singularize%>.bookings.start_during(start_time, end_time),
-      <%=resource_name_underscore.singularize%>.bookings.happening_during(start_time, end_time),
-      <%=resource_name_underscore.singularize%>.bookings.enveloping(start_time, end_time),
-      <%=resource_name_underscore.singularize%>.bookings.identical(start_time, end_time)
+      <%=resource_name_underscore.singularize%>.viewings.end_during(start_time, end_time),
+      <%=resource_name_underscore.singularize%>.viewings.start_during(start_time, end_time),
+      <%=resource_name_underscore.singularize%>.viewings.happening_during(start_time, end_time),
+      <%=resource_name_underscore.singularize%>.viewings.enveloping(start_time, end_time),
+      <%=resource_name_underscore.singularize%>.viewings.identical(start_time, end_time)
     ].flatten
 
     overlapping_viewings.delete self
