@@ -18,3 +18,4 @@ module Viewable
 			end
 		end
 	end
+end
