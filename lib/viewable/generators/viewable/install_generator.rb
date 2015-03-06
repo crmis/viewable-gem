@@ -10,6 +10,7 @@ module Viewable
 				generate "viewable:views #{resource_name}"
 				generate "viewable:js #{resource_name}"
 				generate "viewable:css #{resource_name}"
+				rake 'db:migrate'
 			end
 		end
 	end
