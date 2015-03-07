@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |s|
 	# metadata
 	s.name        = 'viewable'
-	s.version     = '0.5.14'
+	s.version     = '0.5.15'
 	s.licenses    = ['MIT']
 	s.summary     = %q{a viewings calendar gem for rails 4.0}
 	s.description = %q{Viewable is a Rails 4.0 gem that enables you to add resource viewing functionality to your Rails application. A resource can be anything that is viewable e.g. function room, conference hall. }
@@ -28,5 +28,5 @@ Gem::Specification.new do |s|
 	# runtime dependencies
 	s.add_dependency 'jbuilder', '~> 2.0'
 	s.add_dependency 'rails_12factor', '~> 0.0.3'
-	s.add_dependency 'responders', '~> 2.1'
+	s.add_dependency 'responders', '~> 2.0'
 end
