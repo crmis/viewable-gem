@@ -29,13 +29,10 @@ Alternatively you can specify a named resource such as 'room'
 
     $ rails generate viewable:install room
 
-The generator will create the file structure you need to implement viewing functionality into your app:
+The generator will create the file structure you need to implement viewing functionality into your app, it will also run migrations after generating these:
   * controllers
   * models - resource(room) and viewing
   * views
   * javascript - which uses the jQuery Full Calendar (old) plugin
   * css - some basic CSS is provided which you may want to override
-
-The necessary routes will be applied to your routes file and you will need to run, you may want to edit the migration file.
-
-    $ rake db:migrate
+  * routes
