@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |s|
 	# metadata
 	s.name        = 'viewable'
-	s.version     = '0.5.15'
+	s.version     = '0.5.16'
 	s.licenses    = ['MIT']
 	s.summary     = %q{a viewings calendar gem for rails 4.0}
 	s.description = %q{Viewable is a Rails 4.0 gem that enables you to add resource viewing functionality to your Rails application. A resource can be anything that is viewable e.g. function room, conference hall. }
@@ -15,7 +15,8 @@ Gem::Specification.new do |s|
 
 	# file settings
 	# This gem will work with 1.9.5 or greater...
-	s.required_ruby_version = '>= 1.9.5'
+	# This is not ideal.
+	s.required_ruby_version = '>= 1.9.3'
 	s.files         = `git ls-files`.split($/)
 	s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
 	s.test_files    = s.files.grep(%r{^(test|spec|features)/})
