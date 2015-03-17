@@ -11,7 +11,7 @@
 
 Viewable works with Rails 4.0. Add this line to your Gemfile:
 
-    gem 'viewable', '~> 0.5.16'
+    gem 'viewable', '~> 0.5.17'
 
 Then execute:
 
