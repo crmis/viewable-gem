@@ -1,4 +1,4 @@
-###### We use the Github License generator. But if you're unsure check out: http://choosealicense.com/
+###### We use the GitHub License generator. But if you're unsure check out: http://choosealicense.com/
 
 # The MIT License (MIT)
 
